@@ -1,2 +1,2 @@
 # cmkproject
-CMAKE Template for cpp projects structure 
+CMAKE template structure for cpp projects 
