@@ -5,6 +5,6 @@
 
 namespace cmkproject {
     namespace utils {
-        void Print(const std::string&); 
+        std::string Print(const std::string&); 
     }
 }

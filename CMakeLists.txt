@@ -16,8 +16,9 @@ target_compile_options(cxx_setup INTERFACE -Weffc++)
 target_compile_features(cxx_setup INTERFACE cxx_std_17) 
 target_include_directories(cxx_setup INTERFACE ${PROJECT_SOURCE_DIR})
 
+include(CTest)
+include(cmake/updateSubmodules.cmake)
+
 add_subdirectory(${PROJECT_NAME})
 add_subdirectory(executables)
-
-
-
+add_subdirectory(external)
